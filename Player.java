@@ -27,8 +27,8 @@ class Player{
     public boolean isAlive(){
         return this.health>0;
     }
-    
-    public static PlayerBuilder getBuilder(){
+
+    public static PlayerBuilder getPlayerBuilder(){
         return new PlayerBuilder();
     }
 
