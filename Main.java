@@ -7,6 +7,7 @@ public class Main {
         int h1 = sc.nextInt(), s1 = sc.nextInt(), a1 = sc.nextInt();
         System.out.print("Enter Player2 health, strength and attack value :");
         int h2 = sc.nextInt(), s2 = sc.nextInt(), a2 = sc.nextInt();
+        sc.close();
         Player p1 = PlayerFactory.createPlayer(h1, s1, a1, "Player1");
         Player p2 = PlayerFactory.createPlayer(h2, s2, a2, "Player2");
         // Player p1=PlayerFactory.createPlayer(50, 5, 10, "Player1");
