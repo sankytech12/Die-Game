@@ -1,5 +1,5 @@
 public class PlayerFactory {
-    public static Player createPlayer(int health,int strength,int attack,String name){
+    public static Player createPlayer(int health, int strength, int attack, String name) {
         return Player
                 .getPlayerBuilder()
                 .setHealth(health)
